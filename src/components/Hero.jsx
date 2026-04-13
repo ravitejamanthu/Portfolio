@@ -41,7 +41,7 @@ function Hero() {
         >
           <div className="mb-6 flex justify-center">
             <img
-              src="/profile.png"
+              src="/Portfolio/profile.png"
               alt="Raviteja Manthu profile"
               className="h-44 w-44 rounded-2xl border border-indigo-300/60 object-cover shadow-lg shadow-indigo-400/20 dark:border-indigo-400/40"
             />
