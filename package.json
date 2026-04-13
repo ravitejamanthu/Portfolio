@@ -5,10 +5,12 @@
   "type": "module",
   "homepage": "https://ravitejamanthu.github.io/Portfolio",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "framer-motion": "^12.23.24",
     "react": "^19.1.0",
