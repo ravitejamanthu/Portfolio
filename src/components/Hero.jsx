@@ -41,10 +41,10 @@ function Hero() {
         >
           <div className="mb-6 flex justify-center">
             <img
-              src="/Portfolio/profile.png"
-              alt="Raviteja Manthu profile"
-              className="h-44 w-44 rounded-2xl border border-indigo-300/60 object-cover shadow-lg shadow-indigo-400/20 dark:border-indigo-400/40"
-            />
+  src={`${import.meta.env.BASE_URL}profile.png`}
+  alt="Raviteja Manthu profile"
+  className="h-44 w-44 rounded-2xl border border-indigo-300/60 object-cover shadow-lg shadow-indigo-400/20 dark:border-indigo-400/40"
+/>
           </div>
           <p className="text-lg font-semibold text-slate-900 dark:text-white">Professional Focus</p>
           <ul className="mt-4 space-y-2 text-sm text-slate-600 dark:text-slate-300">
